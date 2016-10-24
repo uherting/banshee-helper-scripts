@@ -1,3 +1,10 @@
+This repo is a fork of the repository 
+https://github.com/ddgenome/banshee-helper-scripts
+as of commit 134ff57 on 16 Oct 2012.
+
+For now I  (uherting) improved the banshee-playlist.pl script in order to 
+export all playlists to be copied to my smartphone.
+
 This repo contains a set of scripts I use to help me manage my Banshee (b)
 music library, including pushing to Google Play Music (gm).
 
