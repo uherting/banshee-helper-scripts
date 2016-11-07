@@ -135,6 +135,7 @@ sub get_list {
 		$path = $rv;
 	    }
 	}
+$path =~ s#/home/devusruh/##g;
 #warn("$pkg: URI: $track{uri}");
 	$m3u->print("#EXTINF:$track{duration},$track{artist} - $track{title}\n");
 	$m3u->print("$path\n");
